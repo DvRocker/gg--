@@ -20,7 +20,7 @@ client.on("message", message => {
 
 
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","member"));
+    member.addRole(member.guild.roles.find("name","Factory Members"));
     });
 
 
