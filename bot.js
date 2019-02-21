@@ -90,9 +90,6 @@ client.on('message', message => {
 }})
 
 
-client.on('guildMemberAdd', member=> {
-    member.setNickname(`FY || ${member.user.username}`)
-});
 
 
 
